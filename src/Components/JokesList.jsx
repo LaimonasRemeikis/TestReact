@@ -1,7 +1,6 @@
 import {useEffect, useState} from 'react';
 import axios from 'axios';
-import Setup from './Setup';
-import Delivery from './Delivery';
+import Jokes from './Jokes';
 
 
 function JokesList() {
@@ -20,7 +19,7 @@ function JokesList() {
     return (
         <ul>
             {
-                jokes.map(joke => <div key={joke.id} >{joke.delivery}{joke.setup}</div>)
+                jokes.map(joke => <Jokes key={joke.id} joke={joke} ></Jokes>)
              
             }
         </ul>
