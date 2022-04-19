@@ -1,0 +1,9 @@
+export const ADD_1 = 'ADD 1';
+export const DIF_1 = 'DIF_1';
+export const ADD_11 = 'ADD 11';
+export const DIF_11 = 'DIF_11';
+export const ADD_RAND = 'ADD_RAND';
+export const DIF_RAND = 'DIF_RAND';
+export const DIF_COLOR = 'DIF_COLOR';
+export const ADD_KV = 'ADD_KV'
+export const DELL = 'DELL_KV'

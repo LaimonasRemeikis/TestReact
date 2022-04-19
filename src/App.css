@@ -61,3 +61,14 @@
   align-items: center;
   
 }
+
+.linija{
+  margin: 20px;
+  border: 2px dotted tomato;
+}
+
+a{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
